@@ -1,0 +1,203 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link href="styles.css" rel="stylesheet" type="text/css" />
+    <script src="index.js" async></script>
+  </head>
+  <style>
+    b,
+    strong {
+      color: blue;
+    }
+  </style>
+  <body>
+    <h1 style="color: red">Headings</h1>
+    <hr />
+    <h1>Heading 1</h1>
+    <h2>Heading 2</h2>
+    <h3>Heading 3</h3>
+    <h4>Heading 4</h4>
+    <h5>Heading 5</h5>
+    <h6>Heading 6</h6>
+    <hr />
+
+    <h1>Paragraph Tag</h1>
+    <hr />
+    <p>
+      Lorem <b>ipsum</b> dolor sit amet, <i>consectetur</i> adipisicing elit.
+      Aspernatur amet neque, magni quae eum laboriosam fugiat. Nesciunt
+      aspernatur fugit repellat culpa ipsum? Cupiditate officiis voluptatum
+      voluptatem fugit omnis, ullam vero perferendis iste. Consequuntur quo
+      nesciunt minus qui magnam <strong>voluptas</strong>. Totam natus veritatis
+      aut asperiores provident reiciendis animi unde aspernatur tempora ducimus
+      blanditiis labore dolor odit officiis sequi corporis vitae amet laboriosam
+      sapiente, corrupti at illo ex fugiat voluptatum. Quia commodi porro,
+      praesentium, alias voluptatem eligendi ipsa saepe rerum sequi, dolores
+      reiciendis consectetur odio tempora
+      <i
+        ><strong>
+          delectus vero? Ab ipsam debitis aperiam, quia omnis, expedita quis
+          velit minima obcaecati ratione id. Neque!
+        </strong>
+      </i>
+    </p>
+    <hr />
+
+    <h1>List</h1>
+    <hr />
+    <h2>Unordered List</h2>
+    <ul>
+      <li>Take the session</li>
+      <li>Have dinner</li>
+      <li>Sleep</li>
+    </ul>
+
+    <h2>Ordered List</h2>
+    <ol type="I">
+      <li>The Dark Knight</li>
+      <li>Interstellar</li>
+      <li>Tenat</li>
+    </ol>
+    <hr />
+
+    <h1>Figure</h1>
+    <hr />
+    <figure>
+      <img
+        src="https://www.simplilearn.com/ice9/free_resources_article_thumb/what_is_image_Processing.jpg"
+        alt="random image"
+      />
+      <figcaption>This is a random image</figcaption>
+    </figure>
+    <hr />
+
+    <h1>Quotes</h1>
+    <hr />
+    <h2>Using q tag</h2>
+    <q>This will work out</q>
+
+    <h2>Using blockquote tag</h2>
+    <blockquote cite="https://blog.hubspot.com/sales/famous-quotes">
+      The greatest glory in living lies not in never falling, but in rising
+      every time we fall.
+    </blockquote>
+    <hr />
+
+    <h1>Address, Dates, Abbreviations</h1>
+    <hr />
+    <h2>Address Tag</h2>
+    <address>
+      <a href="mailto:jayeshsadhwani99@gmail.com">Mail Me</a>
+      <p>New Delhi,</p>
+      <p>India</p>
+    </address>
+
+    <h2>Time Tag</h2>
+    <time datetime="25/07/2023 11:00:00">11am</time>
+
+    <h2>Abbreviations Tag</h2>
+    <abbr title="Where you at?">wya</abbr>
+    <hr />
+
+    <h1>Input Tags</h1>
+    <hr />
+    <form>
+      <label for="name">Name:</label>
+      <input
+        id="name"
+        type="text"
+        placeholder="Please Enter your name"
+        required
+      />
+
+      <label for="email">Your Email:</label>
+      <input
+        id="email"
+        type="email"
+        placeholder="Please Enter your email"
+        required
+      />
+
+      <label for="phone">Phone Number:</label>
+      <input id="phone" type="number" placeholder="Phone Number" required />
+
+      <label for="birthday">Date of Birth:</label>
+      <input id="birthday" type="date" placeholder="Your birthday" required />
+
+      <label for="color">Favorite Color:</label>
+      <input id="color" type="color" required />
+
+      <label>Gender:</label>
+      <div>
+        <label for="male">Male</label>
+        <input id="male" checked type="radio" name="gender" />
+      </div>
+
+      <div>
+        <label for="female">Female</label>
+        <input id="female" type="radio" name="gender" />
+      </div>
+
+      <div>
+        <label for="others">Others</label>
+        <input id="others" type="radio" name="gender" />
+      </div>
+
+      <label>WHere have you lived?</label>
+      <div>
+        <label for="delhi">Delhi</label>
+        <input id="delhi" type="checkbox" checked name="city" />
+      </div>
+      <div>
+        <label for="mumbai">Mumbai</label>
+        <input id="mumbai" type="checkbox" name="city" />
+      </div>
+      <div>
+        <label for="kolkata">Kolkata</label>
+        <input id="kolkata" type="checkbox" name="city" />
+      </div>
+
+      <select>
+        Choose an option
+        <option value="1">1</option>
+        <option value="2" selected>two</option>
+        <option value="3">three</option>
+      </select>
+
+      <label for="portfolio">Your Portfolio Link</label>
+      <input type="url" id="portfolio" />
+
+      <label for="file">Your image</label>
+      <input type="file" id="file" accept=".jpg,.jpeg,.gif,.pdf" />
+
+      <button>Submit</button>
+    </form>
+    <hr />
+
+    <h1>Embedding videos</h1>
+    <hr />
+    <iframe
+      src="https://www.youtube.com/embed/AE3iXR1JFak"
+      width="800px"
+      height="500px"
+      allowfullscreen
+    ></iframe>
+
+    <iframe
+      src="https://player.vimeo.com/video/748415552?h=bf0514d1e6"
+      width="640"
+      height="360"
+      frameborder="0"
+      allow="autoplay; fullscreen; picture-in-picture"
+      allowfullscreen
+    ></iframe>
+    <hr />
+  </body>
+  <script>
+    console.log("Hello from the script tag");
+  </script>
+  <script src="script.js"></script>
+</html>
